@@ -26,8 +26,9 @@ I assume that you are at least a little familiar with the MatrixPortal M4 and ar
 
 Wiring this up is pretty simple, I haven't tackled the whole "how to attach to table" yet, but the general function is pretty easy to get going.
 
-First thing's first, attach MatrixPortal 
-(https://github.com/cheechbg/AirHockeyScoreboard/blob/main/images/readme/20201117_210644.jpg)
+First thing's first, [attach MatrixPortal, then attach the Qwiic/STEMMA QT cable to the header.](/images/readme/20201117_210644.jpg)
+
+If you have a breadboard, arrange 
   
 
 
