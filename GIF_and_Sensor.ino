@@ -277,7 +277,6 @@ char *filenameByIndex(const char *path, const char *filter, int16_t index) {
 }
 
 //  GOAL SCORE WRITERS  -----------------------------------------------------------
-
 void RedGoalWriter(void) {
   // Clear Screen
   matrix.fillScreen(0);                              // Fill background black
@@ -393,16 +392,6 @@ void loop(void) {
     msc_changed = false; // Clear flag
     return;              // Prioritize USB, handled in calling func
   }
-
-//MuxSwitch(0);
-//   Serial.print("RED Ambient: "); Serial.println(red_prox.readAmbient());
-//   Serial.print("RED Proximity: "); Serial.println(red_prox.readProximity());
-//   delay(100);
-//
-//    MuxSwitch(1);
-//   Serial.print("BLUE Ambient: "); Serial.println(blue_prox.readAmbient());
-//   Serial.print("BLUE Proximity: "); Serial.println(blue_prox.readProximity());
-//   delay(100);
 
 //  RED GOAL --------------------------------
   MuxSwitch(0);  
